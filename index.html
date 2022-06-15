@@ -3,53 +3,139 @@
   <head>
     <meta charset="utf-8">
     <title>ABHIJEET KUMAR's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c1177de739.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/favicon.ico?v=2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Roboto:ital,wght@0,500;0,900;1,300;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Roboto:ital,wght@0,500;0,900;1,300;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-2">
       <img class="cloud-top" src="images/cloud.png" alt="cloud-top">
-      <h1>I'm Cyber</h1>
-      <h2>A PROGRAMMER</h2>
+      <h1 class="name">I'm ABHIJEET</h1>
+      <h2>An ASPIRING PROGRAMMER</h2>
       <img class="cloud-bottom" src="images/cloud.png" alt="cloud-bottom">
       <img src="images/mountain.png" alt="mountain">
     </div>
     <div class="middle-container">
       <div class="profile">
         <img class="profile" src="images/8d6y8f81ncf51.jpg" alt="">
-        <h2>Hello.</h2>
-        <p class="p-3">I am an intermediate programmer, learning to become a professional. I also like Physics and Maths, Intermediate in them too.</p>
+        <h2>Hello!</h2>
+        <p class="p-3">I am an intermediate programmer, currently learning to become a professional.</p>
       </div>
       <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="skill-image" src="images/computer.png" alt="">
-          <h3 class="h3-pg">PROGRAMMING</h3>
-          <p class="p-1">I can code in C++, Python, Javascript and now that I think I can develop a website too, surely it won't be attractive.</p>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="skills">
+              <h2>My Skills & EXPERIENCES</h2>
+              <div class="skill-row">
+                <img class="skill-image" src="images/computer.png" alt="">
+                <h3 class="h3-pg">PROGRAMMING</h3>
+                <p class="p-1">I'm skilled in programming language like C, C++, javascript, python. And an intermediate full stack web developer. I've knowledge of different framework of js (skilled in node.js), various modules required to develop a website, GIT CLI and other OS like Linux.</p>
+              </div>
+              <div class="skill-row">
+                <img class="skill-image-2" src="images/AI-Bot-1.jpg" alt="">
+                <h3 class="h3-pg-2">AUTOMATION & BOTS</h3>
+                <p class="p-2">I've done automation projects on web based applications like WhatsApp, Discord and have created web chat bots. Contributed to enhancing the features of Discord bots which are actively serving 100+ servers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="skills">
+              <h2>My Qualifications</h2>
+              <div class="skill-row">
+                <img class="skill-image" src="images/download.jpg" alt="">
+                <h3 class="h3-pg">Class 12th</h3>
+                <p class="p-1"><ul>
+                  <li>School - Sun Valley Internation School</li>
+                  <li>Year of passing - 2020</li>
+                  <li>Board - CBSE</li>
+                </ul></p>
+              </div>
+              <div class="skill-row">
+                <img class="skill-image" src="images/images.jpg" alt="">
+                <h3 class="h3-pg">Graduation (seeking admission)</h3>
+                <p class="p-1">under progress</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Hobbies">
+              <h2>My Hobbies.</h2>
+              <div class="skill-row">
+                <img class="skill-image" src="images/Capture.PNG" alt="">
+                <h3 class="h3-pg">SKETCHING & WEB DESIGNING</h3>
+                <p class="p-1">Apart from coding, I usually do sketching in my spare time. And Design website for next project.</p>
+              </div>
+              <div class="skill-row">
+                <img class="skill-image-2" src="images/Types-of-Research-Design.jpg" alt="">
+                <h3 class="h3-pg-2">RESEARCHING ABOUT SPACE & TECH</h3>
+                <p class="p-2">I update myself with new technology and achievements in space-focused science that I also share with others. I also keep me updated about new tools that I can use to develop new programs.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="skill-row">
-          <img class="skill-image-2" src="images/Capture.PNG" alt="">
-          <h3 class="h3-pg-2">SKETCHING</h3>
-          <p class="p-2">In my spare time I sometimes do sketching. This skill could help me to be more creative.</p>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left color-font"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right color-font"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       <hr>
       <div class="contact-me">
         <h2>Get In Touch</h2>
-        <h3>And give me some review about it so that i can improve more.</h3>
-        <p class="contact-message">If you want to talk about astronomy, space missions or see my free time art, you can reach me by clicking the button below.</p>
-        <a class="btn" href="mailto: gmrspd@gmail.com">CONTACT ME</a>
+        <h3>And provide me your valuable review about this site so that i can improve more.</h3>
+        <p class="contact-message">If you would like to do a collaborative project and want to develop your own website or would like me to contribute to your Git repository, you can reach me by clicking the button below.</p>
+        <a class="btn" href="mailto: abhijeet.kumar7982@gmail.com">CONTACT ME</a>
+      </div>
+      <hr>
+      <div>
+        <h2>Useful Links</h2>
+        <table style="text-align: center; margin: 2rem auto;">
+          <tr>
+            <td style="padding: 2rem 0;">
+              <p> Visit to see my work and contribution, you may download or clone them for personal project.</p>
+            </td>
+            <td style="padding: 2rem 0;">
+              <a class="btn-2" href="https://github.com/CYBER-DEV-100?tab=repositories">Git repository</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 2rem 0;">
+              <p> Get updated by the knowledge of space events and news.</p>
+            </td>
+            <td style="padding: 2rem 0;">
+              <a class="btn-2" href="https://www.instagram.com/_cosmic_wisdom/">Cosmic Wisdom</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 2rem 0;">
+              <p>Download my cv in printed format.</p>
+            </td>
+            <td style="padding: 2rem 0;">
+              <a class="btn-2" href="download/ABHIJEETKUMAR-converted.pdf" download="abhijeet_kumar_cv"><i class="fa-solid fa-download" style="margin: 0 0.5rem 0 0;"></i> Download</a>
+            </td>
+          </tr>
+        </table>
+
       </div>
     </div>
     
     
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/__art_gallery_98/">Instagram</a>
+      <a class="footer-link" href="https://www.instagram.com/_cosmic_wisdom/">Instagram</a>
       <a class="footer-link" href="https://twitter.com/def_coder_/">Twitter</a>
       <a class="footer-link" href="#">Website</a>
       <p class="copyright">© A.K. AKA CYBER 2022.</p>
@@ -58,3 +144,8 @@
 
   </body>
 </html>
+
+
+<!-- 
+<p><a class="btn-2" href="https://github.com/CYBER-DEV-100?tab=repositories">Git repository</a> Visit to see my work and contribution, you may download or clone them for personal project.</p>
+<p> Stay updated with space news as you scroll through Instagram <a class="btn-2" href="https://www.instagram.com/_cosmic_wisdom/">Cosmic Wisdom</a></p> -->
